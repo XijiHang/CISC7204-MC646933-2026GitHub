@@ -1,61 +1,55 @@
 # CISC7204 Assignment 01 — Xiji Hang
 
-**Submitted by:** Xiji Hang (MC646933).  
-**Laboratory collaborators:** Xiji Hang (MC646933) and Xiaoyu Guo (MC648131). All laboratory work is joint.  
-**Deadline:** 20 September 2026, 23:00, Macao time (UTC+8).
+**Student:** Xiji Hang (MC646933) · **Class C** · University of Macau
 
-## Start here
+Laboratory work was completed jointly by Xiji Hang (MC646933) and Xiaoyu Guo (MC648131). This repository presents Xiji Hang's submission and individual preliminary proposal.
 
-For detailed Chinese reading and submission instructions, open [中文文件说明与提交指南](00_中文文件说明与提交指南_MC646933.html). It is a local reference document and is not an assignment attachment.
+## Complete package
 
-Open `submission_text/README.md`, review your twelve executed notebooks and individual proposal, then follow `submission_text/Submission_Checklist.md`. Each student must use their own Moodle account and [Class C SUPPORT Moodle](https://ummoodle.um.edu.mo/course/view.php?id=46674). This package contains prepared materials; it is not a record of an online submission.
+[Download the reviewed assignment ZIP](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/releases/download/assignment01-reviewed/cisc7204-Assgn01-2026-MC646933.zip) · [Release and SHA-256 checksum](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/releases/tag/assignment01-reviewed)
 
-## Package contents
+The ZIP preserves the complete `cisc7204-Assgn01-2026-MC646933/` folder: twelve executed notebooks, twelve HTML previews, 93 screenshot pages covering 71 requirement groups, eight raw data snapshots, derived results, the English individual proposal, and submission guides. `SHA256SUMS.txt` verifies the individual files.
 
-| Folder or file | Contents |
-|---|---|
-| `00_中文文件说明与提交指南_MC646933.md` / `.html` | Personal Chinese explanation of files and submission steps; local reference only |
-| `notebooks/` | Twelve executed notebooks named for Xiji Hang and MC646933 |
-| `notebook_previews/` | HTML exports generated from these personalized notebooks |
-| `proposals/` | Your individual English Word proposal |
-| `datasets/raw/` | Eight unchanged source CSV snapshots |
-| `datasets/provenance.json` | Source URLs, access dates and SHA-256 hashes |
-| `datasets/processed/` | Derived CSVs from the import and cleaning exercises |
-| `results/` | Insurance and housing extension metric CSVs |
-| `screenshots/` | 93 genuine screenshots organized by module |
-| `submission_text/` | Final screenshot posts, notebook-upload posts, formal submission text and checklist |
-| `submission_text/Requirement_Coverage.md` | Question, subquestion and guided-task links to exact images |
-| `screenshots/index.csv` | Page-by-page image, notebook, requirement and discussion-title index |
-| `build/m04_m05/exports/` | The guided Module 05 CSV output only; no build scripts |
-| `environment_requirements.txt` | Recorded Python-library versions |
-| `package_manifest.json` | Validation counts and artifact inventory |
-| `SHA256SUMS.txt` | SHA-256 checksums for every other packaged file |
+## Browse the notebooks
 
-## Reproduce the analysis locally
+### Module 01
 
-The notebooks were executed with **Python 3.14.6 in Anaconda**. Exact library versions are recorded in `environment_requirements.txt`; this documents the working environment rather than silently installing packages inside the notebooks.
+- [CISC7204 Assgn01 Module 01 - Lab01 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2001%20-%20Lab01%20MC646933%20Xiji%20Hang.ipynb)
+- [CISC7204 Assgn01 Module 01 - Lab02 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2001%20-%20Lab02%20MC646933%20Xiji%20Hang.ipynb)
 
-1. Extract the complete ZIP and retain the folder structure.
-2. Open the package folder in Anaconda/JupyterLab. Select a Python kernel with the listed libraries.
-3. Open a notebook in `notebooks/`, restart its kernel and run all cells in order.
-4. The dataset locator accepts the bundle root, the `notebooks/` folder, or a flat folder containing a notebook and its required raw CSV. The provided bundle already contains all eight inputs.
-5. Rerunning import/cleaning work writes to `datasets/processed/`. Module 06 writes its metric CSVs to `results/`; Module 05 Lab01 writes a guided copy to `build/m04_m05/exports/`. The raw CSVs are not overwritten.
+### Module 02
 
-For a separate environment, install the recorded requirements before opening JupyterLab:
+- [CISC7204 Assgn01 Module 02 - Lab01 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2002%20-%20Lab01%20MC646933%20Xiji%20Hang.ipynb)
+- [CISC7204 Assgn01 Module 02 - Lab02 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2002%20-%20Lab02%20MC646933%20Xiji%20Hang.ipynb)
 
-```sh
-python -m pip install -r environment_requirements.txt
-python -m jupyter lab
-```
+### Module 03
 
-The HTML previews show the saved results without executing code. Notebook code, outputs and execution counts were retained during personalization. The notebooks report which scores are in-sample, held out, or development diagnostics; do not compare different evaluation protocols as if they were the same test.
+- [CISC7204 Assgn01 Module 03 - Lab01 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2003%20-%20Lab01%20MC646933%20Xiji%20Hang.ipynb)
+- [CISC7204 Assgn01 Module 03 - Lab02 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2003%20-%20Lab02%20MC646933%20Xiji%20Hang.ipynb)
 
-## Submission essentials
+### Module 04
 
-- Post all **93 screenshot pages** covering **71 requirement groups**, one forum discussion per image, using `submission_text/Screenshot_Posts.md`.
-- Upload each module’s two personal notebooks in the corresponding Class C forum. Optionally add the two matching HTML previews and two raw CSV inputs (six attachments total; forum limit: 10 files, 200 MB per file).
-- Submit the Module 06 practice notebook with `medical_insurance_dataset.csv` and the final notebook with `kc_house_data_NaN.csv` to their separate formal assignments.
-- Submit the individual Word proposal to the proposal assignment. The three formal assignments allow 20 files and 200 MB per file; use the exact 2, 2 and 1 required files. Complete these formal submissions before working through the screenshot discussions.
-- Review all content personally and retain the source credits, joint-work statement and AI-use acknowledgement.
+- [CISC7204 Assgn01 Module 04 - Lab01 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2004%20-%20Lab01%20MC646933%20Xiji%20Hang.ipynb)
+- [CISC7204 Assgn01 Module 04 - Lab02 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2004%20-%20Lab02%20MC646933%20Xiji%20Hang.ipynb)
 
-The two tourism studies are proposed future research, not completed tourism analyses. This package includes only your individual proposal.
+### Module 05
+
+- [CISC7204 Assgn01 Module 05 - Lab01 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2005%20-%20Lab01%20MC646933%20Xiji%20Hang.ipynb)
+- [CISC7204 Assgn01 Module 05 - Lab02 MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2005%20-%20Lab02%20MC646933%20Xiji%20Hang.ipynb)
+
+### Module 06
+
+- [CISC7204 Assgn01 Module 06 - PracticeProj MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2006%20-%20PracticeProj%20MC646933%20Xiji%20Hang.ipynb)
+- [CISC7204 Assgn01 Module 06 - FinalProj MC646933 Xiji Hang.ipynb](https://github.com/XijiHang/CISC7204-MC646933-2026GitHub/blob/main/cisc7204-Assgn01-2026-MC646933/notebooks/CISC7204%20Assgn01%20Module%2006%20-%20FinalProj%20MC646933%20Xiji%20Hang.ipynb)
+
+## Reproduce the analysis
+
+Download and extract the complete ZIP, retain its directory structure, and use the Python library versions recorded in `environment_requirements.txt`. Open a notebook, restart its kernel, and run all cells. Raw data snapshots and source provenance are included; HTML previews show the saved results without running code.
+
+For the separate Class C Final Project submission, use the two files in `formal_submissions/housing/`: `cisc7204C_Assgn01_Mod06FinalProject_MC646933.ipynb` and `housing.csv`. That variant was rerun successfully against the required CSV filename; its analysis and underlying data match the forum version.
+
+## Attribution
+
+Course and dataset credits, references, and tool acknowledgements are retained in the notebooks and proposal. OpenAI Codex assisted with code completion, debugging, and written explanations; numerical results and figures were produced by executing the notebooks. The Macau tourism proposal describes future research, not a completed tourism study.
+
+Moodle contains the formal submissions, module notebook attachments, and screenshot discussions. This public repository provides the optional course portfolio and backup.
